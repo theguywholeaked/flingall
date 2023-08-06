@@ -1,0 +1,7 @@
+local args = {
+    [1] = "Area4",
+    [2] = "Katana",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Remotes.EquipAndUnequipTool:FireServer(unpack(args))
