@@ -21,7 +21,7 @@ GUI:Credit{
 
 Tab:Button{
 	Name = "Adopt Me Free MFR GUI",
-	Description = "Credit to @ReQiuYTPL",
+	Description = "Credit to mewt#3702",
 	Callback = function() 
         loadstring(game:HttpGet(('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'),true))()
         wait(1) 
@@ -61,7 +61,7 @@ Tab:Button{
 
 Tab:Button{
 	Name = "Plane Crash Physics 2",
-	Description = "Credits to echofluwuff",
+	Description = "Credits to i removed the credits because it had the word uwu ",
 	Callback = function() 
         loadstring(game:HttpGet("https://pastebin.com/raw/eCrb6mwJ",true))()
     end
