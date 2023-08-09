@@ -4,7 +4,7 @@ local GUI = Library:Create{
     Name = "Free Pass V2",
     Size = UDim2.fromOffset(600, 400),
     Theme = Legacy,
-    Link = "https://youtube.com/@dark_modz"
+    Link = "https://discord.gg/mewt"
 }
 
 local Tab = GUI:Tab{
@@ -13,10 +13,10 @@ local Tab = GUI:Tab{
 }
 
 GUI:Credit{
-	Name = "darkModz",
+	Name = "Mewtard",
 	Description = "Creator",
 	V3rm = nil,
-	Discord = "D4RKV1Z#2872 / dark.viz"
+	Discord = "mewt#3702 / discord.gg/mewt"
 }
 
 Tab:Button{
@@ -130,11 +130,11 @@ Tab:Button{
 GUI:Prompt{
 	Followup = false,
 	Title = "Hey!",
-	Text = "Subscribe to darkModz on YouTube for more scripts!",
+	Text = "Join discord.gg/mewt or gay",
 	Buttons = {
 		yes = function()
 			pcall(function()
-            setclipboard("https://www.youtube.com/@dark_modz?sub_confirmation=1")
+            setclipboard("https://discord.gg/mewt")
             GUI:Notification{
                 Title = "Notification",
                 Text = "URL copied to clipboard",
