@@ -1,4 +1,4 @@
-Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/theguywholeaked/flingall/main/mewtcredut"))()
 
 local GUI = Library:Create{
     Name = "Free Pass V2",
